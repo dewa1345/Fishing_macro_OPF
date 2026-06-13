@@ -1,6 +1,5 @@
 # 🔵 Fishing Macro OPF
-This is an open source software written in python letting you automatically catch fish and pass their minigames. it works on every ROD
-
+This is an open source software written in python letting you automatically catch fish and pass their minigames in a roblox game called One Piece: Final. it works on every Fishing ROD
 
 
 # 🦠 Is there a virus?
