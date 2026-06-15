@@ -31,4 +31,4 @@ Bait X / Y (Optional) you can leave it alone no need to edit
 The Bait X and Bait Y fields are where your cast button is on screen make it click the ROBLOX screen not the UI or menu in-game.
 
 # 🎬 Demonstration video
-[![Macro Fishing for One Piece Final](https://img.youtube.com/vi/_9Sd3kJ-jQE/hqdefault.jpg)](http://www.youtube.com/watch?v=_9Sd3kJ-jQE "Macro Fishing for One Piece Final")
+[![Macro fishing One Piece Final Roblox](https://img.youtube.com/vi/erUlW3XI5xk/maxresdefault.jpg)](https://youtu.be/erUlW3XI5xk)
