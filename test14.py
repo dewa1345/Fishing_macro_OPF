@@ -183,10 +183,10 @@ def click_at(x, y):
             raise ValueError("too close")
         mkey.left_click_xy_natural(
             tx, ty,
-            delay=0.08,
+            delay=0.03,
             min_variation=-2, max_variation=2,
-            use_every=4,
-            sleeptime=(0.004, 0.008),
+            use_every=8,
+            sleeptime=(0.008, 0.012),
             percent=85,
         )
     except Exception:
@@ -197,7 +197,7 @@ def click_at(x, y):
 def safe_move_away(x, y):
     """Move mouse away from button so it doesn't block next scan."""
     try:
-        pyautogui.moveTo(x + 15, y - 60, duration=0.05)
+        pyautogui.moveTo(x + 15, y - 60, duration=0.03)
     except Exception:
         pass
 
@@ -264,7 +264,7 @@ def fishing_loop(bx, by, green_region, white_region):
                     break
                 click_at(*btn)
                 safe_move_away(*btn)
-                time.sleep(0.15)
+                time.sleep(0.04)
 
     except Exception as e:
         log(f"CRASHED: {e}")
@@ -298,6 +298,7 @@ def main():
                    button_color=("#0E0E14","#00B358"), expand_x=True)],
         [sg.Text("⭐ Star the repo if it helped", font=("Consolas",11), text_color="#04FF00")],
         [sg.Text("Made by dewa1345", font=("Consolas",9), text_color="#04FF00")],
+        [sg.Text("version 1.2 (Improved speed)", font=("Consolas",9), text_color="#04FF00")],
     ]
     main_window = sg.Window("Fishing Macro OPF", layout, keep_on_top=True,
                             finalize=True, font=("Consolas",9))
