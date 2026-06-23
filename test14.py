@@ -17,11 +17,11 @@ mkey = MouseKey()
 # noted for me graphics 4 and low graphics turn on so the 
 # ── CONFIG ────────────────────────────────────────────────────────────────────
 # Day + night green variants — for lighting changes
-PARTICLE_HEXES  = ["00B358", "009944"]
+PARTICLE_HEXES  = ["00B358","03ECAF"]
 MINIGAME_HEX    = "E6E6E6"
 POLL_INTERVAL   = 0.1
 CAST_DELAY      = 2.0
-COLOR_TOLERANCE = 35
+COLOR_TOLERANCE = 55
 
 pyautogui.FAILSAFE = False
 
