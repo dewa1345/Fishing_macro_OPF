@@ -298,7 +298,7 @@ def main():
                    button_color=("#0E0E14","#00B358"), expand_x=True)],
         [sg.Text("⭐ Star the repo if it helped", font=("Consolas",11), text_color="#04FF00")],
         [sg.Text("Made by dewa1345", font=("Consolas",9), text_color="#04FF00")],
-        [sg.Text("version 1.2 (Improved speed)", font=("Consolas",9), text_color="#04FF00")],
+        [sg.Text("version 1.3 (Green particle fix)", font=("Consolas",9), text_color="#04FF00")],
     ]
     main_window = sg.Window("Fishing Macro OPF", layout, keep_on_top=True,
                             finalize=True, font=("Consolas",9))
