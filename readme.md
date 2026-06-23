@@ -7,7 +7,7 @@ Its open source. you can run the code raw file but you need to install libraries
 
 # 📘  Guide before start
 ```
-1. Set roblox graphics into manual aftar that set it into 4 bars
+1. Set roblox graphics into manual aftar that set it into 2 bars
 2. Go to the In-game settings and set it into Old Graphics: On (Optional but highly advised)
 ```
 # ❓How to use
