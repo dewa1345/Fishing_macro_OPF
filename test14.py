@@ -21,7 +21,7 @@ PARTICLE_HEXES  = ["00B358", "009944", "2FFBCC", "03ECAF"]
 MINIGAME_HEX    = "E6E6E6"
 POLL_INTERVAL   = 0.1
 CAST_DELAY      = 2.0
-COLOR_TOLERANCE = 55
+COLOR_TOLERANCE = 35
 
 pyautogui.FAILSAFE = False
 
@@ -264,7 +264,7 @@ def fishing_loop(bx, by, green_region, white_region):
                     break
                 click_at(*btn)
                 safe_move_away(*btn)
-                time.sleep(0.04)
+                time.sleep(0.06)
 
     except Exception as e:
         log(f"CRASHED: {e}")
